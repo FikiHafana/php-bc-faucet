@@ -1,4 +1,4 @@
-blackcoin-faucet-php
+php-bc-faucet
 ====================
 
 php plugin for BlackCoin faucet 
