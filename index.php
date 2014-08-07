@@ -5,8 +5,8 @@
 
 	$debug 			= false;
 
-	$rpcuser 		= "";
-	$rpcpass 		= "";
+	$rpcuser 		= ""; // rpc user
+	$rpcpass 		= ""; // rpc pass
 	$rpcip 			= "localhost"; // rpc host
 	$rpcport		= 9333; // rpc daemon port
 	$blackcoind 	= new jsonRPCClient("http://$rpcuser:$rpcpass@$rpcip:$rpcport");
